@@ -5,6 +5,11 @@
 }
 
 /* HEADER ------------------------------------------------*/
+body {
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -123,7 +128,7 @@ ul {
   width: 50%;
 }
 
-/* C O N T E N U T O ---------------------------------------------*/
+/* C O N T E N U T O -------Trending on Medium--------------------------------------*/
 
 .top-trend {
   display: flex;
@@ -148,6 +153,7 @@ div.trend img {
   justify-content: center;
   flex-direction: column;
   padding-left: 195px;
+  border-bottom: 0.5px solid #cababa;
 }
 .trend-row1 {
   display: flex;
@@ -158,12 +164,15 @@ div.trend img {
 p {
   font-size: 1.2rem;
 }
+
 .img-trend {
   border-radius: 50%;
-  width: 35px;
+  width: 30px;
+  height: 30px;
   position: relative;
   right: 35px;
 }
+
 .number {
   font-size: 1.7rem;
   color: #d6d6d6;
@@ -185,4 +194,208 @@ p {
 .medium-trend05 {
   position: relative;
   right: 50px;
+}
+
+/* Discover more of what matters to you */
+/* 
+.discover {
+  top: 0;
+
+  right: 0;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 190px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 10px;
+  border: none;
+  background-color: rgb(236, 225, 225);
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.topics {
+  color: green;
+  font-size: 15px;
+}
+
+a {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(207, 207, 221);
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* A R T I C O L I  & F O O T E R --------------------------------------------------------------------- */
+
+.articles {
+  width: 1500px;
+  margin-inline: auto;
+  display: flex;
+  padding-top: 60px;
+  line-height: 1.2;
+}
+.rev {
+  display: flex;
+}
+div.rev p {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #191919;
+  font-weight: bold;
+}
+.rev2 {
+  display: flex;
+  padding-top: 80px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #191919;
+  font-weight: bold;
+}
+.title-container {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: #191919;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.main-news {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #6b6b6b;
+  padding-top: 5px;
+}
+div .rev img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+div .rev2 img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.date-news {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #6b6b6b;
+  padding-top: 12px;
+}
+.second-content {
+  display: flex;
+}
+.img-news {
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.img-news img {
+  height: 180px;
+  background-size: cover;
+  object-fit: cover;
+  padding-top: 5px;
+}
+.img-news .img02 {
+  height: 180px;
+  background-size: cover;
+  object-fit: cover;
+  padding-top: 15px;
+}
+.bookmark {
+  position: relative;
+  left: 220px;
+  top: 5px;
+}
+
+/* F O O T E R */
+
+.footer {
+  display: flex;
+}
+
+.discover {
+  top: 0;
+
+  right: 0;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 190px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 10px;
+  border: none;
+  background-color: rgb(236, 225, 225);
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.topics {
+  color: green;
+  font-size: 15px;
+}
+
+a {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(207, 207, 221);
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
